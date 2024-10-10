@@ -1,3 +1,7 @@
+ body{
+    width:100%;
+ }
+ 
  #myImage{
     height: 50px;
     width: 50px;
@@ -58,6 +62,7 @@
 main{
     position: relative;
     top: 50px;
+   
     
 }
 .title{
@@ -86,17 +91,22 @@ main{
 border: 0px;
 padding: 0px;
     height: 30vh;
+    width: 100vw;
     position: relative;
     top: 537px;
     right: 0px;
     left: 0px;
     text-align: center;
+    background-color: rgba(24, 196, 75, 0.319);
 }
 
 #footerTitle{
 font-size: 22px;
 }
 
-#SocialMedialogo{
-height: 10px;
+.SocialMedialogo{
+    display: inline-block;
+    height: 48px;
+    margin: 5px;
+
 }
