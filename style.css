@@ -1,10 +1,28 @@
 @media(max-width:600px){
+    
+    #brandLogo {
+        position: relative;
+        top: -25px;
+        width: 167px;
+        right: -4px;
+    }
+
+    #mainTitle1 {
+        position: relative;
+        top: 68px;
+        left: 90px;
+        font-size: 18px;
+    }
+    
+    
+    
+    
     #myImage {
         height: 71px;
         width: 72px;
         border-radius: 50%;
         position: relative;
-        top: 22px;
+        top: 27px;
         left: 25px;
     }
 
@@ -17,7 +35,7 @@
         width: 50px;
         border-radius: 50%;
         position: relative;
-        top: -4px;
+        top: 14px;
         left: 33px;
     }
 
@@ -25,7 +43,7 @@
         color: white;
         background-color: darkviolet;
         border-radius: 7px;
-        height: 36px;
+        height: 7%;
         width: 134px;
         font-size: 21px;
         position: relative;
@@ -52,11 +70,11 @@
         padding: 0px;
         height: 213px;
         /* width: 100vw; */
-        width: 148%;
-        position: relative;
-        top: 877px;
+        width: 600px;
+        position: fixed;
+        top: 723px;
         /* right: -2px; */
-        left: -5px;
+        left: -9px;
         text-align: center;
         background-color: rgba(24, 196, 75, 0.319);
     }
