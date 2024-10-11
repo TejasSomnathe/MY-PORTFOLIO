@@ -1,112 +1,205 @@
- body{
-    width:100%;
- }
+@media(max-width:600px){
+    #myImage {
+        height: 71px;
+        width: 72px;
+        border-radius: 50%;
+        position: relative;
+        top: 22px;
+        left: 25px;
+    }
+
+    #myName {
+        display: inline;
+        position: relative;
+        font-family: cursive;
+        font-size: 28px;
+        height: 49px;
+        width: 50px;
+        border-radius: 50%;
+        position: relative;
+        top: -4px;
+        left: 33px;
+    }
+
+    .headerButtons {
+        color: white;
+        background-color: darkviolet;
+        border-radius: 7px;
+        height: 36px;
+        width: 134px;
+        font-size: 21px;
+        position: relative;
+        left: 51px;
+        diaplay: flex;
+        margin: 10px;
+        top: -9px;
+    }
+
+    #mainTitle {
+        position: relative;
+        top: 45px;
+        left: 215px;
+        font-size: 50px;
+    }
+    #mainTitle1 {
+        position: relative;
+        top: 18px;
+        left: 208px;
+        font-size: 23px;
+    }
+    footer {
+        border: 0px;
+        padding: 0px;
+        height: 213px;
+        /* width: 100vw; */
+        width: 148%;
+        position: relative;
+        top: 877px;
+        /* right: -2px; */
+        left: -5px;
+        text-align: center;
+        background-color: rgba(24, 196, 75, 0.319);
+    }
+
+}
+
+/* @media(min-width:601px){ */
  
- #myImage{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    position: relative;
-    top: 12px;
-    left: 25px;
-}
-
- header{
-    z-index: 12;
-    height: 12%;
-    width: 100%;
-    background-color: rgb(92 131 206);
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-}
-
-#brandLogo{
-    position: relative;
-    top: -99px;
-    width: 313px;
-    right: -129px;
-}
-
-#myName{
-    display: inline;
-    position: relative;
-    font-family: monospace;
-    font-size: 31px;height: 49px;
-    width: 50px;
-    border-radius: 50%;
-    position: relative;
-    top: 1px;
-    left: 33px;
-
-}
-
-
-.headerButtons{
-    color: white;
-    background-color: darkviolet;
-    border-radius: 7px;
-    height: 36px;
-    width: 134px;
-    font-size: 21px;
-    position: relative;  
-    left: 902px;
-    diaplay: flex;
-    margin: 10px;
-}
-
-main{
-    position: relative;
-    top: 50px;
-   
+ 
+    /* Default styles
+   body {
+       font-size: 16px;
+     }
+     
+     /* For tablets (e.g., min-width: 768px) */
+     /* @media (min-width: 768px) {
+       body {
+         font-size: 18px;
+       }
+     } */
+     
+     /* For desktops (e.g., min-width: 1024px) */
+     /* @media (min-width: 1024px) {
+       body {
+         font-size: 20px;
+       }
+     } */ 
+     
     
-}
-.title{
-    text-align: center;
-    position: relative;
-    top: 59px;
-    font-family: cursive;
-}
-
-#mainTitle{
-    position: relative;
-    top: 75px;
-    left: 215px;
-    font-size: 50px;
-}
-
-#mainTitle1{
-    position: relative;
-    top: 46px;
-    left: 208px;
-    font-size: 23px;
-}
-
-
-  footer{
-border: 0px;
-padding: 0px;
-    height: 30vh;
-    width: 100vw;
-    position: relative;
-    top: 537px;
-    right: 0px;
-    left: 0px;
-    text-align: center;
-    background-color: rgba(24, 196, 75, 0.319);
-}
-
-#footerTitle{
-font-size: 22px;
-}
-
-.SocialMedialogo{
-    display: inline-block;
-    height: 48px;
-    margin: 5px;
-
-}
+    
+    
+    /* body{
+       width:100%;
+    } */
+    
+    #myImage{
+       height: 50px;
+       width: 50px;
+       border-radius: 50%;
+       position: relative;
+       top: 12px;
+       left: 25px;
+   }
+   
+    header{
+       z-index: 12;
+       height: 12%;
+       width: 100%;
+       background-color: rgb(92 131 206);
+       border: 0px;
+       padding: 0px;
+       margin: 0px;
+       position: fixed;
+       top: 0px;
+       right: 0px;
+       left: 0px;
+   }
+   
+   #brandLogo{
+       position: relative;
+       top: -99px;
+       width: 313px;
+       right: -129px;
+   }
+   
+   #myName{
+       display: inline;
+       position: relative;
+       font-family: monospace;
+       font-size: 31px;height: 49px;
+       width: 50px;
+       border-radius: 50%;
+       position: relative;
+       top: 1px;
+       left: 33px;
+   
+   }
+   
+   
+   .headerButtons{
+       color: white;
+       background-color: darkviolet;
+       border-radius: 7px;
+       height: 36px;
+       width: 134px;
+       font-size: 21px;
+       position: relative;  
+       left: 902px;
+       diaplay: flex;
+       margin: 10px;
+   }
+   
+   main{
+       position: relative;
+       top: 50px;
+      
+       
+   }
+   .title{
+       text-align: center;
+       position: relative;
+       top: 59px;
+       font-family: cursive;
+   }
+   
+   #mainTitle{
+       position: relative;
+       top: 75px;
+       left: 215px;
+       font-size: 50px;
+   }
+   
+   #mainTitle1{
+       position: relative;
+       top: 46px;
+       left: 208px;
+       font-size: 23px;
+   }
+   
+   
+     footer{
+   border: 0px;
+   padding: 0px;
+       height: 30vh;
+       /* width: 100vw; */
+       position: relative;
+       top: 537px;
+       right: 0px;
+       left: 0px;
+       text-align: center;
+       background-color: rgba(24, 196, 75, 0.319);
+   }
+   
+   #footerTitle{
+   font-size: 22px;
+   }
+   
+   .SocialMedialogo{
+       display: inline-block;
+       height: 48px;
+       margin: 5px;
+   
+   }
+   
+   
+   /* } */
