@@ -42,16 +42,16 @@
 
     .headerButtons {
         color: white;
-        background-color: darkviolet;
-        border-radius: 7px;
-        height: 7%;
-        width: 134px;
-        font-size: 21px;
-        position: relative;
-        left: 51px;
-        diaplay: flex;
-        margin: 10px;
-        top: -9px;
+    background-color: darkviolet;
+    border-radius: 7px;
+    height: 26px;
+    width: 58px;
+    font-size: 9px;
+    position: relative;
+    left: 5px;
+    diaplay: flex;
+    margin: 3px;
+    top: -1px;
     }
 
     #mainTitle {
