@@ -23,47 +23,50 @@
         width: 72px;
         border-radius: 50%;
         position: relative;
-        top: 27px;
-        left: 25px;
+        top: 15px;
+        left: 12px;
     }
 
     #myName {
         display: inline;
         position: relative;
-        font-family: cursive;
-        font-size: 28px;
+        font-family: monospace;
+        font-size: 20px;
         height: 49px;
         width: 50px;
         border-radius: 50%;
         position: relative;
-        top: 14px;
-        left: 33px;
+        top: -4px;
+        left: 16px;
     }
 
     .headerButtons {
-          color: white;
+        color: white;
     background-color: darkviolet;
     border-radius: 7px;
-    height: 25px;
-    width: 66px;
+    height: 29px;
+    width: 62px;
     font-size: 9px;
     position: relative;
-    left: 9px;
+    left: 17px;
     diaplay: flex;
-    margin: 0px;
-    }
+    margin: 1px;
+    padding: -2px;
+    top: -6px;
+}
 
     #mainTitle {
         position: relative;
-        top: 45px;
-        left: 215px;
-        font-size: 50px;
+        top: 75px;
+        left: -79px;
+        font-size: 34px;
     }
     #mainTitle1 {
         position: relative;
-        top: 18px;
-        left: 208px;
-        font-size: 23px;
+        top: 58px;
+        left: -81px;
+        font-size: 16px;
+        font-family: system-ui;
     }
     footer {
         border: 0px;
