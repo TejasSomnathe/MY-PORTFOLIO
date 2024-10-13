@@ -277,6 +277,11 @@
 #column1_content{
 
 }
+body {
+    overflow-x: hidden;
+}
+
+
    
 
    /* } */
