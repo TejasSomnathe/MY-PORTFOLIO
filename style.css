@@ -41,7 +41,7 @@
     }
 
     .headerButtons {
-       z-index: 10;
+       z-index: 14;
         color: white;
     background-color: darkviolet;
     border-radius: 7px;
