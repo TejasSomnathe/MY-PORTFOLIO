@@ -282,31 +282,38 @@
     background-color: #e0cdcd;
     border: 1px solid #0f0101;
     height: 383px;
-    width: 421px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
+    width: 274px;;
+    font: size 100px;
     color: #333;
     position: relative;
     top: -87px;
+    overflow: auto;
+
+  word-wrap: break-word;
 }
+
 
 
 #column3 {
     background-color: #e0cdcd;
     border: 1px solid #0f0101;
     height: 718px;
-    width: 651px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
+    width: 420px;
+    display:inline-block;  
+    
     color: #333;
     position: relative;
     bottom: 807px;
     left: 1087px;
+    margin: 2px;     
+    padding: 2px;
 }
+
+ul, ol {
+    margin: 2px;     
+    padding: 2px;     
+    display: inline;
+  }
 
 #column1_heading{
     position: relative;
