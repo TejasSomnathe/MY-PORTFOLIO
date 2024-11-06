@@ -266,7 +266,7 @@
    }
 
    #column1 {
-    background-color: #e0cdcd;
+    background-color: #8672ced1;
     border: 1px solid #0f0101;
     height: 334px;
     width: 1086px;
@@ -279,7 +279,7 @@
     top: -87px;
 }
    #column2 {
-    background-color: #e0cdcd;
+    background-color: #8672ced1;
     border: 1px solid #0f0101;
     height: 383px;
     width: 274px;;
@@ -295,7 +295,7 @@
 
 
 #column3 {
-    background-color: #e0cdcd;
+    background-color: #8672ced1;
     border: 1px solid #0f0101;
     height: 718px;
     width: 420px;
@@ -303,8 +303,8 @@
     
     color: #333;
     position: relative;
-    bottom: 807px;
-    left: 1087px;
+    bottom: 809px;
+    left: 1086px;
     margin: 2px;     
     padding: 2px;
 }
