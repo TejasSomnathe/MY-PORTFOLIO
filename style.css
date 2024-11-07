@@ -55,7 +55,7 @@
 
     .headerButtons {
         color: white;
-        background-color: darkviolet;
+        background-color: #d58bc7;
         border-radius: 7px;
         height: 30px;
         width: 62px;
@@ -64,7 +64,21 @@
         left: 76px;
         diaplay: flex;
         margin: 6px;
+        cursor: pointer;
+      transition: all 0.3s ease;
     }
+
+.headerButtons:hover{
+    background-color: #9734ae;  
+    transform: scale(1.1); 
+}
+
+.headerButtons:active {
+    background-color: #60105c; 
+    transform: scale(1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+  }
+
 
     #mainTitle {
         position: relative;
